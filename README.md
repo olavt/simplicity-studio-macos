@@ -1,0 +1,1 @@
+# simplicity-studio-macos
