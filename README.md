@@ -20,6 +20,14 @@ Download the Simplicity Studio Installer from the Silicon Labs web site. Select 
 
 There could be some cases where an update to Simplicity Studio 5 components could modify Info.plist, which will change the digital signature and cause a problem launching Simplicity Studio 5 on MacOS. To avoid this, keep a backup of Info.plist and restore it in case it's modified.
 
+### Backup command
+
 ```
 cp /Applications/Simplicity\ Studio.app/Contents/Info.plist .
+```
+
+### Restore command
+
+```
+cp Info.plist /Applications/Simplicity\ Studio.app/Contents/.
 ```
