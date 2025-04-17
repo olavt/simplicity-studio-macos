@@ -28,6 +28,8 @@ cp /Applications/Simplicity\ Studio.app/Contents/Info.plist .
 
 ### Restore command
 
+If you have a problem starting Simplicity Studio 5 restore Info.plist:
+
 ```
 cp Info.plist /Applications/Simplicity\ Studio.app/Contents/.
 ```
